@@ -1,0 +1,54 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #72c1e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    border: none;
+    
+  }
+  
+  .dropdown {
+    margin-top: 1.5rem;
+  }
+  
+  .dropdown select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .temperature-display {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 1.5rem;
+    }
+  }
+  
